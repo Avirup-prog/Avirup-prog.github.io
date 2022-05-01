@@ -1,0 +1,758 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNEXT</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <a href="#" class="nav__logo">Technext</a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            Contents
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li><button onclick="document.getElementById('VR').scrollIntoView()">VR</button></li>
+                            <li><button onclick="document.getElementById('ROBOTICS').scrollIntoView()">ROBOTICS</button></li>
+                            <li><button onclick="document.getElementById('VR').scrollIntoView()">VR</button></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="home">
+            <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+            <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+            <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+            <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+            <h1 class="parallax home__title" data-rellax-speed="-6">TECHNEXT</h1>
+            <span class="parallax home__subtitle" data-rellax-speed="-5">Technology is best when it brings people together.</span>
+
+
+
+            <div class="home__scroll">
+                <a href="#section"><i class='bx bx-mouse'></i></a>
+            </div>
+        </div>
+
+        <div class="close-btn">
+            <span class="fas fa-times"></span>
+        </div>
+        <div class="textthe">
+            <strong>We provide you<span class="type"></span></strong>
+
+        </div>
+        <span class="mouse">
+            <span class="mouse-wheel"></span>
+        </span>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed('.type', {
+
+                strings: ['Information', 'Courses', 'Job opportunities', 'Components'],
+                typeSpeed: 100,
+                backSpeed: 70,
+                loop: true,
+
+            });
+        </script>
+
+        <section class="l-section" id="section">
+            <div class="section">
+                <div class="section__data">
+
+                    <h2 class="section__title">What we provide?</h2>
+                    <p class="section__text">*Informations about the most famoous Technology-related</p>
+                    <p class="section__text">*Courses is low fees</p>
+                    <p class="section__text">*Job opportunities-Both Applying and posting done here </p>
+                    <p class="section__text">*24/7 Customer services for your queries</p>
+                    <p class="section__text">*Informations about the most famous Technology-related</p>
+
+
+
+
+
+
+
+
+                </div>
+
+                <img src="Images/Newer Logo.png" alt="" class="section__img">
+            </div>
+        </section>
+    </main>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" value="Login" class="btn solid" />
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" class="btn" value="Sign up" />
+                    <p class="social-text">Or Sign up with social platforms</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" class="social-icon">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here ?</h3>
+                    <p>
+                        If you are new.Why don't you join us in this project of new Technology.
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Sign up
+                    </button>
+                </div>
+                <img src="Images/log.svg" class="image" alt="" />
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>
+                        If you are already a member.Sign in to your account as we would like
+                        to see you back.
+                    </p>
+                    <button class="btn transparent" id="sign-in-btn">
+                        Sign in
+                    </button>
+                </div>
+                <img src="Images/register.svg" class="image" alt="" />
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <h5 style="color:blue;font-size:40px;text-align:center;font-family:'Script MT'">════ CONTENTS ════</h5>
+    <div id="VR">
+        <div id="videoDiv2">
+            <video id="video2" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
+                <source src="images/ezgif.com-gif-maker.mp4" type="video/mp4">
+                <source src="images/ezgif.com-gif-maker (1).mp4" type="video/mp4">
+            </video>
+            <div id="videoMessage2" class="styling">
+                <h5>VIRTUAL REALITY(VR)</h5>
+                <p>Virtual reality technology plays an important role in realizing Telesensation. Through it, a virtual world is created that viewers can enter and walk through and where they can handle virtual objects. </p>
+
+
+            </div>
+        </div>
+    </div>
+    <a href="https://www.sciencedirect.com/topics/computer-science/virtual-reality-technology" class="button">Learn more</a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <div id="ROBOTICS">
+        <div id="videoDiv3">
+            <video id="RoboVideo" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
+                <source src="images/ezgif.com-gif-maker (2).mp4" type="video/mp4" />
+                <source src="images/ezgif.com-gif-maker (2).mp4" type="video/mp4" />
+            </video>
+            <div id="message3" class="styling">
+                <h5>ROBOTIC PROCESS AUTOMATION</h5>
+                <p>Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions interacting with digital systems and software.</p>
+
+
+            </div>
+        </div>
+    </div>
+    <a href="https://www.uipath.com/rpa/robotic-process-automation" class="button">Learn more</a>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <div id="VideoDiv4">
+        <video id="AIVideo" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
+            <source src="images/ezgif.com-gif-maker (3).mp4" type="video/mp4" />
+            <source src="images/ezgif.com-gif-maker (3).mp4" type="video/mp4" />
+        </video>
+        <div id="message4" class="styling">
+            <h5>ARTIFICIAL INTELLIGENCE</h5>
+            <p> AI is a technique of making a machine work like human beings by stimulating the human intelligence into it. It is capable of thinking, act and performs like any rational human being.</p>
+        </div>
+    </div>
+
+    <a href="https://krazytech.com/technical-papers/artificial-intelligence-technology-that-hosts-race-between-enterprises" class="button">Learn more</a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <h1 style="font-size:40px;text-align:center;color:aliceblue;font-family:'Script MT'">COURSES</h1>
+    <h2 style="font-size:20px;text-align:center;color:aliceblue;">In order to be irreplaceable, one must always be different</h2>
+
+
+
+    <section class="course" id="course">
+
+        <h1 class="heading">Our popular courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_74855-10172.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn front end development</a>
+                    <p>This course provides a full course to web development.The languages included are HTML,CSS,JAVASCRIPT & JQUERY</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/code-testing-cartoon-banner-functional-test-methodology-programming-search-errors-bugs-website-platform-development-dashboard-usability-optimization-computer-pc-vector-illustration_107791-3766.jpg?w=1380&t=st=1651313856~exp=1651314456~hmac=8cf15130fd05cdf686bf7a6a22e9110f88d6f63baf725d76ea3e95dc29aed2e2" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn Programming</a>
+                    <p>This course provides you with the most famous programming languages.The langages provided are C,C++,C#,JAVA,PYTHON</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 12 months </h3>
+                        <h3> <i class="fas fa-book"></i> 32 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://t3.ftcdn.net/jpg/04/98/36/96/240_F_498369666_U696VC8TEP1UyayU4Xu3Wk0KDlkBv5Gy.jpg" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn About Machines</a>
+                    <p>This course provides you idea about Machine Learning(ML).This course make you a professional on Intelligient big Data Management,Smart Devices,Rich consumer experience. </p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 months </h3>
+                        <h3> <i class="fas fa-book"></i> 13 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/graphic-designer-woman-working-laptop_72104-3294.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Graphic designing</a>
+                    <p>This course provides you with the training of graphic designing.This course provides training in Typography,Adobe photoshop,Adobe Illustrator.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 5 months </h3>
+                        <h3> <i class="fas fa-book"></i> 18 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/teenager-boy-bedroom-interior-computers-desk_107791-2738.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn VFX</a>
+                    <p> This course provides VFX Training.Training includes Digital Design,3D Design,Advance Roto Techniques,Chroma Keying Techniques</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 months </h3>
+                        <h3> <i class="fas fa-book"></i> 15 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-1915.jpg?size=338&ext=jpg&ga=GA1.1.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn about Operating Systems</a>
+                    <p>This course provide training on operating System.This training provides Operasting System Security,Data Management.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 4 months </h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br />
+    <br />
+
+    <h2 style="font-size:40px;text-align:center;color:aliceblue;">Download Our Desktop App</h2>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <div class="laptop">
+        <img src="Images/laptop.png" alt="">
+        <video src="Images/Phone2.mp4" controls="controls" autoplay="autoplay" muted=""></video>
+    </div>
+    <div class="app-text">
+        <h1 class="font-size:40px;text-align:center;color:aliceblue;">GET CONNECTED</h1>
+        <p>
+            Requirements:
+            Windows 8 or higher
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+        <div class="button10">
+            <div class="content10">
+                <i class="bx bx-cloud-download"></i>
+                <span class="button-text">Download for windows</span>
+            </div>
+        </div>
+        <script>
+            const button = document.querySelector(".button10");
+            button.addEventListener("click", () => {
+                button.classList.add("active");
+                setTimeout(() => {
+                    button.classList.remove("active");
+                    button.querySelector("i").classList.replace("bx-cloud-download", "bx-check-circle")
+                    button.querySelector("span").innerText = "Completed";
+                }, 6000);
+            });
+        </script>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <h2 style="font-size:30px;text-align:center;color:aliceblue;">Meet Our Team</h2>
+
+
+
+    </div>
+    <div class="main">
+        <div class="profile-card">
+            <div class="img">
+                <img src="https://img.freepik.com/free-vector/mobile-testing-concept-illustration_114360-1564.jpg?t=st=1651419567~exp=1651420167~hmac=61ba72f3e0d5742aa51913eaa09e4dac9efdb8b217aab66016a9e80c14cf1a9c&w=1060">
+            </div>
+            <div class="caption">
+                <h3>Jack</h3>
+                <p>Senior App Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="img">
+                <img src="https://img.freepik.com/free-vector/professional-programmer-engineer-writing-code_3446-693.jpg?w=740">
+            </div>
+            <div class="caption">
+                <h3>David Corner</h3>
+                <p>Front End Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="img">
+                <img src="https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15040.jpg?t=st=1651419116~exp=1651419716~hmac=3a64465229329986e01c9223082fd0a9f90cfb78472946f7b333716cedf80f7c&w=740">
+            </div>
+            <div class="caption">
+                <h3>Tom Cruise</h3>
+                <p>Full Stact Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Font-Awesome/all.min.js"></script>
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+            </p>
+            <div class="skills">
+                <span>IT</span>
+                <span>Education</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="accordion">
+        <div class="image-box">
+            <img src="Images/17973868.jpg" alt="Accordion Image">
+        </div>
+        <div class="accordion-text">
+            <div class="title">FAQ</div>
+            <ul class="faq-text">
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">What is TECHNEXT's motive?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>We want the world th learn more about the next Technology</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Is TECHNEXT planning to launch more Courses?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes we will keep updating the page</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Are the job opportunities legit?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>We allow only geniune individuals or compamies to post job post on our website</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Can we cancel our subscriptions?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes you can cancel your plan anytime you want,(T/C apply)</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Do you provide additional support?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes our customer service is always ready to take up ur call or email.Contact:+91 123456789 Email:technext.org</p>
+                    <span class="line"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        let li = document.querySelectorAll(".faq-text li");
+        for (var i = 0; i < li.length; i++) {
+            li[i].addEventListener("click", (e) => {
+                let clickedLi;
+                if (e.target.classList.contains("question-arrow")) {
+                    clickedLi = e.target.parentElement;
+                } else {
+                    clickedLi = e.target.parentElement.parentElement;
+                }
+                clickedLi.classList.toggle("showAnswer");
+            });
+        }
+    </script>
+    <div class="container50">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    dolorum adipisci recusandae praesentium dicta!
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.png" class="icon" alt="" />
+                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="https://formsubmit.co/2b03be0669c495889db580c6a0d243b8" method="POST" />
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" placeholder="Username" />
+                       
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" placeholder="Email" />
+                        
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" placeholder="Phone" />
+                        
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" placeholder="Message"></textarea>
+                        
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btnbtn" />
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content80">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">TECHNEXT</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Get started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#">App design</a></li>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Logo design</a></li>
+                    <li><a href="#">Banner design</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Courses</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+    <a href="https://youtu.be/p7hPTVmTtCs" target="_blank" class="link">Watch on youtube <i class="fab fa-youtube"></i></a>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
+
+    <script src="Java.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="Style.js"></script>
+
+</body>
+</html>
