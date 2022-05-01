@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="Style.css">
 
-    <!-- ICONS BOXICONS -->
+
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -25,16 +25,14 @@
                     <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                     <li class="nav__item">
                         <a href="#" class="nav__link">
-                            Contents <i class="fas fa-caret-down"></i>
-
+                            Contents
+                            <i class="fas fa-caret-down"></i>
                         </a>
                         <ul>
-                            <li><a href="#">VR</a></li>
-                            <li><a href="#">ROBOTICS</a></li>
-                            <li><a href="#">Ai</a></li>
+                            <li><button onclick="document.getElementById('VR').scrollIntoView()">VR</button></li>
                         </ul>
-
                     </li>
+
                     <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">About</a></li>
                 </ul>
@@ -92,15 +90,23 @@
             <div class="section">
                 <div class="section__data">
 
-                    <h2 class="section__title">Table of Contents</h2>
-                    <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laboriosam. Esse ipsum culpa laboriosam, totam hic quidem recusandae eos, numquam iusto aliquid expedita est sapiente quaerat inventore voluptatem corporis aliquam.</p>
+                    <h2 class="section__title">What we provide?</h2>
+                    <p class="section__text">*Informations about the most famoous Technology-related</p>
+                    <p class="section__text">*Courses is low fees</p>
+                    <p class="section__text">*Job opportunities-Both Applying and posting done here </p>
+                    <p class="section__text">*24/7 Customer services for your queries</p>
+                    <p class="section__text">*Informations about the most famous Technology-related</p>
+
+
+
+
 
 
 
 
                 </div>
 
-                <img src="assets/img/imgm.jpg" alt="" class="section__img">
+                <img src="Images/Newer Logo.png" alt="" class="section__img">
             </div>
         </section>
     </main>
@@ -151,7 +157,7 @@
                     <input type="submit" class="btn" value="Sign up" />
                     <p class="social-text">Or Sign up with social platforms</p>
                     <div class="social-media">
-                        <a href="#" class="social-icon">
+                        <a href="https://www.facebook.com/" class="social-icon">
                             <i class="fa fa-facebook"></i>
                         </a>
                         </a>
@@ -201,18 +207,18 @@
     <br />
     <hr />
     <h5 style="color:blue;font-size:40px;text-align:center">════ CONTENTS ════</h5>
+    <div id="VR">
+        <div id="videoDiv2">
+            <video id="video2" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
+                <source src="images/ezgif.com-gif-maker.mp4" type="video/mp4">
+                <source src="images/ezgif.com-gif-maker (1).mp4" type="video/mp4">
+            </video>
+            <div id="videoMessage2" class="styling">
+                <h5>VIRTUAL REALITY(VR)</h5>
+                <p>Virtual reality technology plays an important role in realizing Telesensation. Through it, a virtual world is created that viewers can enter and walk through and where they can handle virtual objects. </p>
 
-    <div id="videoDiv2">
 
-        <video id="video2" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
-            <source src="images/ezgif.com-gif-maker.mp4" type="video/mp4">
-            <source src="images/ezgif.com-gif-maker (1).mp4" type="video/mp4">
-        </video>
-        <div id="videoMessage2" class="styling">
-            <h5>VIRTUAL REALITY(VR)</h5>
-            <p>Virtual reality technology plays an important role in realizing Telesensation. Through it, a virtual world is created that viewers can enter and walk through and where they can handle virtual objects. </p>
-
-
+            </div>
         </div>
     </div>
     <a href="https://www.sciencedirect.com/topics/computer-science/virtual-reality-technology" class="button">Learn more</a>
@@ -224,7 +230,7 @@
     <hr />
     <br />
     <div id="videoDiv3">
-        <video id="RoboVideo" preload="auto"  autoplay="autoplay" muted="" playsinline="" loop="">
+        <video id="RoboVideo" preload="auto" autoplay="autoplay" muted="" playsinline="" loop="">
             <source src="images/ezgif.com-gif-maker (2).mp4" type="video/mp4" />
             <source src="images/ezgif.com-gif-maker (2).mp4" type="video/mp4" />
         </video>
@@ -255,225 +261,441 @@
     </div>
 
     <a href="https://krazytech.com/technical-papers/artificial-intelligence-technology-that-hosts-race-between-enterprises" class="button">Learn more</a>
-  <br />
+    <br />
     <br />
     <br />
     <br />
     <hr />
-   <h1 style="font-size:40px;text-align:center;color:aliceblue;">COURSES</h1>
-   <h2  style="font-size:20px;text-align:center;color:aliceblue;">In order to be irreplaceable, one must always be different</h2>
+    <h1 style="font-size:40px;text-align:center;color:aliceblue;">COURSES</h1>
+    <h2 style="font-size:20px;text-align:center;color:aliceblue;">In order to be irreplaceable, one must always be different</h2>
     <p style="font-size:18px;text-align:center;color:aliceblue;">Professional tutors </p>
-    <p  style="font-size:18px;text-align:center;color:aliceblue;">Quick course</p>
-    <p  style="font-size:18px;text-align:center;color:aliceblue;">Covers every topic of languages</p>
-    <div class="app">
-        <div class="cardList">
-            <button class="cardList__btn btn btn--left">
-                <div class="icon">
-                    <svg>
-                        <use xlink:href="#arrow-left"></use>
-                    </svg>
-                </div>
-            </button>
+    <p style="font-size:18px;text-align:center;color:aliceblue;">Quick course</p>
+    <p style="font-size:18px;text-align:center;color:aliceblue;">Covers every topic of languages</p>
 
-            <div class="cards__wrapper">
-                <div class="card current--card">
-                    <div class="card__image">
-                        <img src="https://ih1.redbubble.net/image.2088244339.1060/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" />
+
+    <section class="course" id="course">
+
+        <h1 class="heading">our popular courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_74855-10172.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
                     </div>
-                </div>
-
-                <div class="card next--card">
-                    <div class="card__image">
-                        <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="card previous--card">
-                    <div class="card__image">
-                        <img src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png" alt="" />
+                    <a href="#" class="title">learn front end development</a>
+                    <p>This course provides a full course to web development.The languages included are HTML,CSS,JAVASCRIPT & JQUERY</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
                     </div>
                 </div>
             </div>
 
-            <button class="cardList__btn btn btn--right">
-                <div class="icon">
-                    <svg>
-                        <use xlink:href="#arrow-right"></use>
-                    </svg>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/code-testing-cartoon-banner-functional-test-methodology-programming-search-errors-bugs-website-platform-development-dashboard-usability-optimization-computer-pc-vector-illustration_107791-3766.jpg?w=1380&t=st=1651313856~exp=1651314456~hmac=8cf15130fd05cdf686bf7a6a22e9110f88d6f63baf725d76ea3e95dc29aed2e2" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn Programming</a>
+                    <p>This course provides you with the most famous programming languages.The langages provided are C,C++,C#,JAVA,PYTHON</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 12 months </h3>
+                        <h3> <i class="fas fa-book"></i> 32 modules </h3>
+                    </div>
                 </div>
-            </button>
+            </div>
+
+            <div class="box">
+                <img src="https://t3.ftcdn.net/jpg/04/98/36/96/240_F_498369666_U696VC8TEP1UyayU4Xu3Wk0KDlkBv5Gy.jpg" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn About Machines</a>
+                    <p>This course provides you idea about Machine Learning(ML).This course make you a professional on Intelligient big Data Management,Smart Devices,Rich consumer experience. </p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 months </h3>
+                        <h3> <i class="fas fa-book"></i> 13 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/graphic-designer-woman-working-laptop_72104-3294.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Graphic designing</a>
+                    <p>This course provides you with the training of graphic designing.This course provides training in Typography,Adobe photoshop,Adobe Illustrator.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 5 months </h3>
+                        <h3> <i class="fas fa-book"></i> 18 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/teenager-boy-bedroom-interior-computers-desk_107791-2738.jpg?size=626&ext=jpg&ga=GA1.2.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn VFX</a>
+                    <p> This course provides VFX Training.Training includes Digital Design,3D Design,Advance Roto Techniques,Chroma Keying Techniques</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 months </h3>
+                        <h3> <i class="fas fa-book"></i> 15 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-1915.jpg?size=338&ext=jpg&ga=GA1.1.411099378.1647752838" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Learn about Operating Systems</a>
+                    <p>This course provide training on operating System.This training provides Operasting System Security,Data Management.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 4 months </h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <br />
+    <br />
 
-        <div class="infoList">
-            <div class="info__wrapper">
-                <div class="info current--info">
-                    <h1 class="text name">C/C++</h1>
-                    <h4 class="text location">Object oriented programming language</h4>
-                    <p class="text description">6 months Course</p>
-                    <button class="button8">Join</button>
-                </div>
+    <h2 style="font-size:40px;text-align:center;color:aliceblue;">Download Our Desktop App</h2>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-                <div class="info next--info">
-                    <h1 class="text name">Python</h1>
-                    <h4 class="text location"></h4>
-                    <p class="text description">Adventure is never far away</p>
-                    <button class="button8">Join</button>
-                </div>
 
-                <div class="info previous--info">
-                    <h1 class="text name">Web design</h1>
-                    <h4 class="text location">HTML,CSS,JAVASCRIPT,JQUERY</h4>
-                    <p class="text description">Let your dreams come true</p>
-                    <button class="button8">Join</button>
+    <div class="laptop">
+        <img src="Images/laptop.png" alt="">
+        <video src="Images/Phone2.mp4" controls="controls" autoplay="autoplay" muted=""></video>
+    </div>
+    <div class="app-text">
+        <h1 class="font-size:40px;text-align:center;color:aliceblue;">GET CONNECTED</h1>
+        <p>
+            Requirements:
+            Windows 8 or higher
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+        <div class="button10">
+            <div class="content10">
+                <i class="bx bx-cloud-download"></i>
+                <span class="button-text">Download for windows</span>
+            </div>
+        </div>
+        <script>
+            const button = document.querySelector(".button10");
+            button.addEventListener("click", () => {
+                button.classList.add("active");
+                setTimeout(() => {
+                    button.classList.remove("active");
+                    button.querySelector("i").classList.replace("bx-cloud-download", "bx-check-circle")
+                    button.querySelector("span").innerText = "Completed";
+                }, 6000);
+            });
+        </script>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <h2 style="font-size:30px;text-align:center;color:aliceblue;">Meet Our Team</h2>
+
+
+
+    </div>
+    <div class="main">
+        <div class="profile-card">
+            <div class="img">
+                <img src="man.jpg">
+            </div>
+            <div class="caption">
+                <h3>Jack</h3>
+                <p>Senior App Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
         </div>
-
-
-        <div class="app__bg">
-            <div class="app__bg__image current--image">
-                <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+        <div class="profile-card">
+            <div class="img">
+                <img src="man.jpg">
             </div>
-            <div class="app__bg__image next--image">
-                <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+            <div class="caption">
+                <h3>David Corner</h3>
+                <p>Front End Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
-            <div class="app__bg__image previous--image">
-                <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+        </div>
+        <div class="profile-card">
+            <div class="img">
+                <img src="man.jpg">
+            </div>
+            <div class="caption">
+                <h3>Tom Cruise</h3>
+                <p>Full Stact Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="loading__wrapper">
-        <div class="loader--text">Loading...</div>
-        <div class="loader">
-            <span></span>
+    <script src="./Font-Awesome/all.min.js"></script>
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+            </p>
+            <div class="skills">
+                <span>IT</span>
+                <span>Education</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="accordion">
+        <div class="image-box">
+            <img src="Images/17973868.jpg" alt="Accordion Image">
+        </div>
+        <div class="accordion-text">
+            <div class="title">FAQ</div>
+            <ul class="faq-text">
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">What is TECHNEXT's motive?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>We want the world th learn more about the next Technology</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Is TECHNEXT planning to launch more Courses?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes we will keep updating the page</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Are the job opportunities legit?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>We allow only geniune individuals or compamies to post job post on our website</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Can we cancel our subscriptions?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes you can cancel your plan anytime you want,(T/C apply)</p>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <div class="question-arrow">
+                        <span class="question">Do you provide additional support?</span>
+                        <i class="bx bxs-chevron-down arrow"></i>
+                    </div>
+                    <p>Yes our customer service is always ready to take up ur call or email.Contact:+91 123456789 Email:technext.org</p>
+                    <span class="line"></span>
+                </li>
+            </ul>
         </div>
     </div>
 
 
-    <svg class="icons" style="display: none;">
-        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-            <polyline points='328 112 184 256 328 400'
-                      style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-        </symbol>
-        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-            <polyline points='184 112 328 256 184 400'
-                      style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-        </symbol>
-    </svg>
-
-    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-    <div class="container2">
-        <div class="product">
-            <div class="product-card">
-                <h2 class="name">Earbuds</h2>
-                <span class="price">$120.00</span>
-                <a class="popup-btn">Quick View</a>
-                <img src="https://png.pngitem.com/pimgs/s/415-4158411_razer-hammerhead-wireless-earbuds-hd-png-download.png" class="product-img" alt="">
-            </div>
-            <div class="popup-view">
-                <div class="popup-card">
-                    <a><i class="fas fa-times close-btn"></i></a>
-                    <div class="product-img">
-                        <img src="https://png.pngitem.com/pimgs/s/415-4158411_razer-hammerhead-wireless-earbuds-hd-png-download.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h2>Earbuds<br><span>Wearables</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <span class="price">$120.00</span>
-                        <a href="#" class="add-cart-btn">Add to Cart</a>
-                        <a href="#" class="add-wish">Add to Wishlist</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="product">
-            <div class="product-card">
-                <h2 class="name">Smart Watch</h2>
-                <span class="price">$100.00</span>
-                <a class="popup-btn">Quick View</a>
-                <img src="https://static.toiimg.com/photo/msid-79278173/79278173.jpg" class="product-img" alt="">
-            </div>
-            <div class="popup-view">
-                <div class="popup-card">
-                    <a><i class="fas fa-times close-btn"></i></a>
-                    <div class="product-img">
-                        <img src="https://static.toiimg.com/photo/msid-79278173/79278173.jpg" alt="">
-                    </div>
-                    <div class="info">
-                        <h2>Smart Watch<br><span>Smart Sport Modes</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <span class="price">$100.00</span>
-                        <a href="#" class="add-cart-btn">Add to Cart</a>
-                        <a href="#" class="add-wish">Add to Wishlist</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="product">
-            <div class="product-card">
-                <h2 class="name">Camera</h2>
-                <span class="price">$250.00</span>
-                <a class="popup-btn">Quick View</a>
-                <img src="" class="product-img" alt="">
-            </div>
-            <div class="popup-view">
-                <div class="popup-card">
-                    <a><i class="fas fa-times close-btn"></i></a>
-                    <div class="product-img">
-                        <img src="3.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h2>Camera<br><span>Classic Camera</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <span class="price">$250.00</span>
-                        <a href="#" class="add-cart-btn">Add to Cart</a>
-                        <a href="#" class="add-wish">Add to Wishlist</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript">
-        var popupViews = document.querySelectorAll('.popup-view');
-        var popupBtns = document.querySelectorAll('.popup-btn');
-        var closeBtns = document.querySelectorAll('.close-btn');
-
-
-        var popup = function (popupClick) {
-            popupViews[popupClick].classList.add('active');
+    <script>
+        let li = document.querySelectorAll(".faq-text li");
+        for (var i = 0; i < li.length; i++) {
+            li[i].addEventListener("click", (e) => {
+                let clickedLi;
+                if (e.target.classList.contains("question-arrow")) {
+                    clickedLi = e.target.parentElement;
+                } else {
+                    clickedLi = e.target.parentElement.parentElement;
+                }
+                clickedLi.classList.toggle("showAnswer");
+            });
         }
-
-        popupBtns.forEach((popupBtn, i) => {
-            popupBtn.addEventListener("click", () => {
-                popup(i);
-            });
-        });
-
-
-        closeBtns.forEach((closeBtn) => {
-            closeBtn.addEventListener("click", () => {
-                popupViews.forEach((popupView) => {
-                    popupView.classList.remove('active');
-                });
-            });
-        });
     </script>
-    <script src="https://kit.fontawesome.com/64d58efce2.js"
-            crossorigin="anonymous"></script>
+    <div class="container30">
+        <h1 style="font-size:20px;text-align:center;color:aliceblue;">Contact Form</h1>
+        <form action="https://formsubmit.co/2b03be0669c495889db580c6a0d243b8" method="POST" />
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <select name="Continent">
+            <option>Africa</option>
+            <option>Antarctica</option>
+            <option>Asia</option>
+            <option>Australia</option>
+            <option>Europe</option>
+            <option>North America</option>
+            <option>South America</option>
+        </select>
+<textarea name="Message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
 
-    <script src="Java.js"></script>
+    </div>
+    <footer>
+        <div class="content80">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">Logo</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Get started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#">App design</a></li>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Logo design</a></li>
+                    <li><a href="#">Banner design</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Courses</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+            <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+            <a href="https://youtu.be/p7hPTVmTtCs" target="_blank" class="link">Watch on youtube <i class="fab fa-youtube"></i></a>
+            <script src="https://kit.fontawesome.com/64d58efce2.js"
+                    crossorigin="anonymous"></script>
+
+            <script src="Java.js"></script>
 
 
-    <script src="Style.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+
+            <script src="Style.js"></script>
 
 </body>
 </html>

@@ -287,5 +287,3 @@ const waitForImages = () => {
 		});
 	});
 };
-
-waitForImages();
